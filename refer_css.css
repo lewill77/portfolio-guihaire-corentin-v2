@@ -1,0 +1,118 @@
+
+
+body{
+    background-image: url("image fond bleu 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; /* L'image ne se répétera pas */
+    background-attachment: fixed; /* L'image reste fixe lorsque vous faites défiler la page */
+}
+
+/* Ajoute un fond gris sur la barre de navigation */
+*
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topnav 
+  {
+    background-color: rgba(117, 117, 117, 0.566);
+    overflow: hidden;
+  }
+
+  
+  .topnav a 
+  {
+    font-family: "Roboto", sans-serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center; /* Customisation des liens cliquables*/
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover 
+  {
+    background-color: #2f0b6291;
+    color: rgb(239, 239, 239);
+    transition: .75s; /* faire un effet de couleur qui apparaît et disparaît lors du survol avec le curseur*/
+  }
+
+  .topnav a.active 
+  {
+    background-color: #2f0b6291;
+    color: white;
+  }
+
+  .topnav .icon 
+  {
+    display: none;
+  }
+  .navbar1
+{
+    margin-left:660px;
+}
+.texte
+{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+h2
+{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+h4
+{
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
+
+
+
+
+
+.SISR
+{
+  font-size: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+}
+.SLAM
+{
+  font-size: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 70px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+
+.lien1
+{
+margin-left:0%;
+border: 2px solid #000000;
+border-radius: 15px;
+background-color:#397BAD ;
+padding: 15px;
+margin-bottom: 15%;
+color: #ffffff  ;
+
+}
+
+.pied-de-page
+{
+height: 70px;
+margin-top: -10px;
+}

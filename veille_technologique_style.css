@@ -1,0 +1,127 @@
+
+
+body{
+    background-image: url("image fond bleu 2.jpg");/*fond du site*/
+    background-size: cover;
+    background-repeat: no-repeat; /* L'image ne se répétera pas */
+    background-attachment: fixed; /* L'image reste fixe lorsque vous faites défiler la page */
+}
+
+
+*
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*police de texte*/
+}
+.topnav 
+  {
+    background-color: rgba(117, 117, 117, 0.566); /*couleur de fond navbar*/
+    overflow: hidden;
+  }
+
+  
+  .topnav a 
+  {
+    font-family: "Roboto", sans-serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center; /* Customization des liens cliquables*/
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover 
+  {
+    background-color: #2f0b6291;
+    color: rgb(239, 239, 239);
+    transition: .75s; /* faire un effet de couleur qui apparaît et disparaît lors du survol avec le curseur*/
+  }
+
+  .topnav a.active 
+  {
+    background-color: #2f0b6291; /* couleur de fond du acceuil*/
+    color: white;
+  }
+
+  .topnav .icon 
+  {
+    display: none;
+  }
+  
+
+  .logo-feedly
+  {
+    width: 50%;
+  }
+ 
+  .logo-google-alert
+  {
+    width: 35%;
+    margin-left: 60%;
+    margin-top: -30%;
+  }
+
+  .lien2
+{
+  margin-top: 10em;
+margin-left:43.5%;
+border: 2px solid #000000;
+border-radius: 15px;
+background-color:#397BAD ;
+padding: 15px;
+margin-bottom: 15%;
+color: #ffffff  ;
+}
+h1{
+    color: white;
+    text-align: center; /*couleur texte*/
+    margin-top: 50px;
+}
+.navbar1
+{
+    margin-left:660px;/*espace dans la barre*/
+}
+
+.pied-de-page
+{
+height: 70px;
+margin-top: -10px;
+}
+#stage_one {
+    font-size: 1.1em;
+    text-align: justify;
+    width: 500px;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-color: #2196d1;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 0 60px rgb(255, 255, 255),
+    0 0 50px #093660,
+    -10px 0 80px rgb(13, 74, 138),
+    10px 0 80px rgb(176, 253, 253);
+  }
+
+  #stage_two {
+    font-size: 1.1em;
+    text-align: justify;
+    width: 500px;
+    position: relative;
+    margin-left: 60%;
+    margin-top: -27.79em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-color: #2196d1;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 0 60px rgb(255, 255, 255),
+    0 0 50px #093660,
+    -10px 0 80px rgb(13, 74, 138),
+    10px 0 80px rgb(176, 253, 253);
+  }
